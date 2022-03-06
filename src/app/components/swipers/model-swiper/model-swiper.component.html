@@ -1,0 +1,24 @@
+<swiper
+  [slidesPerView]="6"
+  [grid]="{
+    rows: 1
+  }"
+  [spaceBetween]="20"
+  [pagination]="{
+    clickable: true
+  }"
+  class="mySwiper"
+  id="model-swiper"
+>
+  <ng-template
+    swiperSlide
+    *ngFor="let carModel of modelCars.best_selling_car_models"
+  >
+    <div class="main-model-div">
+      <div>
+        <img [src]="carModel.vehicle.make.logo_url" class="model-img" alt="" />
+      </div>
+      <div class="name-model">{{ carModel.vehicle.make.name }}</div>
+    </div></ng-template
+  >
+</swiper>

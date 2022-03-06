@@ -1,0 +1,86 @@
+<div class="main-home-div">
+  <div class="main-input-divs">
+    <div class="home-div-1">
+      <p class="txt-1">Market place for buyer and sellers who love cars</p>
+    </div>
+    <div class="home-div-2">
+      <p class="txt-2">Find your next car here</p>
+    </div>
+
+    <div class="find-car-div">
+      <div class="row">
+        <div class="inpt-1">
+          <i class="fa-solid fa-car"></i>
+          <select
+            class="form-select transpar first-input"
+            aria-label="Default select example"
+          >
+            <option
+              selected
+              class="tra"
+              *ngFor="let carModel of carHome.best_selling_car_models"
+            >
+              &nbsp;&nbsp;&nbsp;&nbsp;{{ carModel.vehicle.body_type.body_type }}
+            </option>
+          </select>
+        </div>
+        <div class="inpt-2">
+          <i class="fa-solid fa-car"></i>
+          <select
+            class="form-select transpar second-input"
+            aria-label="Default select example"
+          >
+            <option
+              selected
+              class="tra"
+              *ngFor="let carModel of carHome.best_selling_car_models"
+            >
+              &nbsp;&nbsp;&nbsp;&nbsp;{{ carModel.vehicle.model_name }}
+            </option>
+          </select>
+        </div>
+        <div class="inpt-3">
+          <i class="fa-solid fa-location-dot"></i>
+          <select
+            class="form-select transpar loc"
+            aria-label="Default select example"
+          >
+            <option
+              selected
+              class="tra"
+              *ngFor="let carModel of carHome.best_selling_car_models"
+            >
+              {{ carModel.vehicle.make.country_of_origin }}
+            </option>
+          </select>
+        </div>
+        <div class="inpt-4">
+          <i class="fa-solid fa-wallet"></i>
+          <input
+            type="number"
+            class="form-control max-price"
+            placeholder="Max Price"
+          />
+        </div>
+        <div class="btn-search">
+          <button class="search">
+            <i class="fa-solid fa-magnifying-glass"></i> Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="second-section">
+  <div class="wrp-swiper">
+    <h3>Market Status</h3>
+    <app-first-swiper></app-first-swiper>
+  </div>
+  <div class="recently-added-div">
+    <h3>Recently added</h3>
+    <app-second-swiper></app-second-swiper>
+  </div>
+  <div class="popular-cars">
+    <app-model-swiper></app-model-swiper>
+  </div>
+</div>

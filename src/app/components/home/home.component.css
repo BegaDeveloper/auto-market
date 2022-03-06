@@ -1,0 +1,131 @@
+.main-home-div {
+  padding-top: 150px;
+  margin-top: -150px;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../../assets/images/adui3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-input-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.txt-1 {
+  font-size: 29px;
+}
+
+.find-car-div {
+  margin-top: 35px;
+}
+.fa-wallet {
+  position: absolute;
+  margin: 20px;
+}
+.fa-car,
+.fa-location-dot {
+  margin: 20px;
+  position: absolute;
+}
+.txt-2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.tra {
+  opacity: 0.5;
+}
+
+.first-input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.first-input,
+.second-input {
+  width: 255px;
+}
+
+.non {
+  width: auto;
+  background: transparent;
+  border: none;
+}
+
+.span {
+  text-align: right;
+}
+
+.inpt-4 {
+  position: relative;
+}
+
+.high-low {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+.fa-angle-up {
+  font-size: 18px;
+}
+
+.transpar {
+  outline: none;
+  background: white;
+  border: none;
+  border-right: 1px grey solid;
+  padding: 15px 30px;
+  text-indent: 15px;
+}
+
+.loc {
+  width: 200px;
+}
+
+.max-price {
+  height: 55px;
+  border: none;
+  border-radius: 0;
+  text-indent: 40px;
+  width: 170px;
+}
+
+.search {
+  background: #e8551e;
+  width: 130px;
+  height: 55px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  border: none;
+  transition: all 0.5s;
+}
+
+.search:hover {
+  background: #a83106;
+}
+
+.wrp-swiper {
+  margin: 0 auto;
+  height: auto;
+}
+
+.second-section {
+  background-color: #f3f5f7;
+}
+
+.recently-added-div {
+  margin-top: 100px;
+}
+.recently-added-div h3 {
+  margin-left: 305px;
+  font-weight: 400;
+  font-size: 33px;
+}

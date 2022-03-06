@@ -1,0 +1,49 @@
+.app {
+  height: 60px;
+  margin-left: 10px;
+}
+
+.play {
+  width: 180px;
+}
+
+.main-footer-div {
+  background-color: #f3f5f7;
+  margin-top: 100px;
+  padding: 5px 300px;
+}
+
+.main-footer-div p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fa-google-plus-square,
+.fa-facebook,
+.fa-twitter {
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+#footer-id {
+  font-weight: 700;
+}
+
+.icon-row {
+  margin-left: 0;
+}
+
+.colss {
+  margin: 35px 0 50px 0;
+}
+.bottom-footer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btm-txt {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+  text-decoration: none;
+  color: black;
+}

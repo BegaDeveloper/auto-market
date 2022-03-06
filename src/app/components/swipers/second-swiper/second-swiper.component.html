@@ -1,0 +1,27 @@
+<swiper
+  [slidesPerView]="6"
+  [spaceBetween]="20"
+  [slidesPerGroup]="6"
+  [loop]="true"
+  [loopFillGroupWithBlank]="true"
+  [pagination]="{ clickable: true }"
+  [navigation]="true"
+  class="mySwiper"
+  id="second-swiper"
+>
+  <ng-template
+    swiperSlide
+    *ngFor="let carModel of carsD.most_selling_car_models"
+  >
+    <div class="second-slide-img">
+      <div class="img-s">
+        <img [src]="carModel.vehicle.picture_url" id="car-ss" alt="" />
+      </div>
+      <div class="car-info">
+        <p class="milage">85 000km</p>
+        <p class="price">$8 300</p>
+        <p>Oue Le me</p>
+      </div>
+    </div></ng-template
+  >
+</swiper>

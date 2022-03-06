@@ -1,0 +1,49 @@
+@import "~swiper/swiper-bundle.min.css";
+
+#second-swiper {
+  width: 1010px;
+  height: 260px;
+}
+.swiper-slidee {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/*.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+*/
+
+#car-ss {
+  width: 140px;
+}
+
+.milage {
+  font-size: 19px;
+  font-weight: 500;
+  opacity: 0.5;
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: 600;
+  margin-bottom: 0;
+}

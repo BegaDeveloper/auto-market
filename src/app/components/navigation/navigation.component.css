@@ -1,0 +1,97 @@
+.icon-div {
+  margin: 45px 100px 0 auto;
+  display: flex;
+}
+
+.main-nav-div {
+  background: transparent;
+}
+
+.logo {
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.nav-links {
+  margin: 45px auto 0 50px;
+  display: flex;
+}
+
+.link-1,
+.link-2,
+.link-3,
+.link-4,
+.link-5 {
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.link-2,
+.link-3,
+.link-4,
+.link-5 {
+  font-size: 17px;
+  opacity: 0.5;
+}
+
+.link-1 p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.active-line {
+  margin-top: -10px;
+  border: 2px #e8551e solid;
+}
+.sign-up-divs {
+  display: flex;
+  margin: 45px auto;
+}
+
+.icon-3 {
+  display: flex;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  margin-right: 35px;
+}
+
+.fa-house-user,
+.fa-star,
+.fa-user {
+  padding-top: 5px;
+  font-size: 22px;
+}
+
+.icon-3 p {
+  font-size: 17px;
+  margin-left: 15px;
+}
+
+.sign-btn {
+  background: #e8551e;
+  border-radius: 6px;
+  border: 1px;
+  font-size: 14px;
+  padding: 25px 55px;
+  margin-top: -12px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.sign-btn:hover {
+  background: #b43405;
+}
+
+.transpar {
+  background: white;
+  border: none;
+}
+
+.dropdown-toggle {
+  background: white;
+  border: none;
+}

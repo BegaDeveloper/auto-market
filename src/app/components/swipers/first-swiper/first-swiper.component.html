@@ -1,0 +1,42 @@
+<swiper [pagination]="true" class="mySwiper">
+  <ng-template
+    swiperSlide
+    *ngFor="let carModel of carDetails.best_selling_car_models"
+  >
+    <div class="main-slide">
+      <div class="icon-div">
+        <img [src]="carModel.vehicle.make.logo_url" class="bmw-icon" alt="" />
+      </div>
+      <div class="flexy">
+        <div class="first-side-slide">
+          <p class="slide-p-1">The car of the month</p>
+          <p class="slide-p-2">{{ carModel.vehicle.model_name }}</p>
+          <p class="slide-p-3">
+            <i class="fa-solid fa-location-dot"></i>
+            {{ carModel.vehicle.make.country_of_origin }}
+          </p>
+          <p class="slide-p-4">July {{ carModel.year }}</p>
+        </div>
+        <div class="second-side-slide">
+          <div class="bwm-image">
+            <img [src]="carModel.vehicle.picture_url" class="bmw-car" alt="" />
+          </div>
+          <div class="review">
+            <div class="stat">
+              <p>7.5k</p>
+              <span class="orange">Searched</span>
+            </div>
+            <div class="stat">
+              <p>17.2k</p>
+              <span class="orange">Visited</span>
+            </div>
+            <div class="stat">
+              <p>10k</p>
+              <span class="orange">Sold</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</swiper>
